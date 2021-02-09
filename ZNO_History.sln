@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZNO_History", "ZNO_History\ZNO_History.csproj", "{E5FF3F51-A80B-42AC-97A8-7AECC717CF1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZNO_History", "ZNO_History\ZNO_History.csproj", "{E5FF3F51-A80B-42AC-97A8-7AECC717CF1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFomsZNO", "WinFomsZNO\WinFomsZNO.csproj", "{DFE03FA8-8162-49FA-B466-6A4512633AD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{E5FF3F51-A80B-42AC-97A8-7AECC717CF1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5FF3F51-A80B-42AC-97A8-7AECC717CF1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5FF3F51-A80B-42AC-97A8-7AECC717CF1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFE03FA8-8162-49FA-B466-6A4512633AD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFE03FA8-8162-49FA-B466-6A4512633AD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFE03FA8-8162-49FA-B466-6A4512633AD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFE03FA8-8162-49FA-B466-6A4512633AD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
