@@ -6,21 +6,17 @@ using System.Text;
 
 namespace ZNO_History
 {
-    [Table("tblAnswers")]
-    public class Answer
+    [Table("tblQuestions")]
+    public class Question
     {
         
             [Key]
             public int Id { get; set; }
 
-            [Required, StringLength(250)]
+            [Required, StringLength(400)]
             public string Text { get; set; }
 
-            public bool IsTrue { get; set; }
-
-            [ForeignKey("Question")]
-            public int QuestionId { get; set; }
-            public virtual Question Question { get; set; }
+            public virtual ICollection<Answer> Answers { get; set; }
         
     }
 }
